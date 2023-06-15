@@ -1,4 +1,3 @@
----
 # Dice Counter with Webcam - An Interactive Open House Project
 
 This project is a simple demonstration of using a webcam and computer vision in Python to count the number of spots on dice rolled inside a box. It was created as part of an Open House event to engage with high school students and younger at the University of Florida.
@@ -24,6 +23,20 @@ The script uses the following Python libraries:
 - OpenCV (cv2): For capturing the video stream, detecting blobs, and displaying the video frames.
 - Numpy: For array operations.
 
+You can install these dependencies using either pip or conda:
+
+With pip:
+
+```bash
+pip install opencv-python numpy
+```
+
+With conda:
+
+```bash
+conda install -c conda-forge opencv numpy
+```
+
 ## Running the Script
 
 To run the script, simply execute the Python file in your terminal as follows:
@@ -37,3 +50,4 @@ To stop the script, press the 'q' key while the video window is active.
 ---
 
 This project is meant to be a simple, interactive way to learn how to use a webcam and apply computer vision in Python. It provides a practical example of how computer vision can be used to detect and count objects in a video stream. Enjoy exploring this project and learning about computer vision!
+
